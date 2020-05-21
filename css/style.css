@@ -112,6 +112,7 @@ header{
     height: 200px;
 }
 .about_contain{
+    /* height: 300px; */
     padding-right: 20px;
     text-align: left;
 }
@@ -200,6 +201,7 @@ header{
 footer{
     height: 415px;
     width: 100%;
+    padding-top: 97px;
     background-color: #d8d8d8;
     display: flex;
     flex-direction: column;
