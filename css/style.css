@@ -12,6 +12,10 @@ body{
     background-color: #fff;
     font-family: Abel;
 }
+@font-face {
+    font-family: 'Abel';
+    src: url('../fonts/Abel-Regular.ttf');
+  }
 .conteiner{
     max-width: 1440px;
     min-height: 100vh;
