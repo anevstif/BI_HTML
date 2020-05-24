@@ -89,6 +89,7 @@ header{
 .button{
     width: 283px;
     height: 60px;
+    border: none;
     padding: 12px 31px;
     margin-right: 25px;
     font-size: 26px;
@@ -147,19 +148,19 @@ header{
 .form_input{
     padding: 0px;
     width: 695px;
-    height: 60px;    
+    height: 60px;   
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
 }
-.form_input input, button{
+.form_input input, .button{
     font-size: 26px;
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
-.form_input input{
-    width: 60%;
-    height: 100%;
 }
-.form_input button{
+.form_input .button{
     width: 39%;
     height: 100%;
 }
