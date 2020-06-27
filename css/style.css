@@ -14,10 +14,8 @@ html, body {
     flex-direction: row;
 }
 .v_menu{
-    padding-top: 17px;
-    padding-left: 20px;
-    padding-right: 40px;
-    padding-bottom: 10px;
+    padding-top: 17px 40px 10px 20px;
+
     height: 894px;
     width: 255px;
     background-color: #fff;
@@ -38,7 +36,7 @@ html, body {
     margin-bottom: 9px;
     font-size: 14px;
     color: #A4A4A4;
-    flex-shrink: 0;
+
 }
 .rect{
     flex-basis: 195px;
@@ -87,7 +85,7 @@ html, body {
     border-radius: 5px;          
     justify-content: space-between;
 }
-.item_test:last-child{
+.item_test_space{
     margin-right: 0px;
 }
 .test_prepar{
@@ -98,19 +96,16 @@ html, body {
     flex-direction: row;
     box-sizing: border-box;
 }
-.contein_1{
+.contein_left{
     width: 870px;
-    margin-top: 18px;
-    margin-left: 11px;
-    margin-bottom: 0px;
-    margin-right: 24px;
+    margin: 18px 24px 0 11px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: space-between;
 }
-.teams_who_p{
+.teams_who_test_plan{
     width: 660px;
     height: 240px;
     display: flex;
@@ -122,7 +117,7 @@ html, body {
     height: 240px;
     box-sizing: border-box;
 }
-.teams_who_h{
+.teams_who_width{
     width: 186px;
 }
 .test_plan{
@@ -147,7 +142,7 @@ html, body {
 .cart:last-child{
     margin-right: 0px;
 }
-.contein_2{
+.contein_rigth{
     width: auto;
     height: auto;
     margin-top: 26px;
@@ -168,7 +163,7 @@ html, body {
     margin-top: 7px;
     line-height: 16px;
 }
-.teams_who_p img{
+.teams_who_test_plan img{
     margin: 6px;
 
 }
@@ -183,7 +178,7 @@ html, body {
     display: flex; 
     flex-direction: column; 
 }
-.item_test, .title_test, .title_menu, .teams_who, .teams_who_p, .about_text, .review_block_item, .review_before, .title_review{
+.item_test, .title_test, .title_menu, .teams_who, .teams_who_test_plan, .about_text, .review_block_item, .review_before, .title_review{
       color: gray;
 }
 
